@@ -15,7 +15,6 @@ main {
 	background: var(--yellow);
 	color: var(--black);
 	grid-row: 1;
-	border-bottom: 3px solid var(--black);
 	&.title  {
 		font-size: 2rem;
 		a {
@@ -29,11 +28,13 @@ main {
 	&.day {
 		text-align: center;
 		font-size: 2.5rem;
+		box-shadow: 2rem 0 0 var(--yellow), 2rem 3px 0 var(--black), 0 3px 0 var(--black);
 		&.today {
 			background: none;
 			position: relative;
 			border: none;
 			z-index: 1;
+			box-shadow: -2rem 0 0 var(--yellow);
 			span {
 				position: relative;
 				top: 1rem;
@@ -43,10 +44,10 @@ main {
 				content: "";
 				position: absolute;
 				top: 1rem;
-				left: 0rem;
-				width: 100%;
+				left: 1.2rem;
+				width: 98%;
 				z-index: -1;
-				box-shadow: .5rem .5rem 0 black, 0 -1rem 0 var(--yellow);
+				box-shadow: .5rem .5rem 0 black, 0 -2rem 0 var(--yellow);
 				border: 3px solid var(--black);
 				border-radius: 1rem;
 				height: 100vw;
