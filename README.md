@@ -1,4 +1,5 @@
-# martcho.uk ludunt: a web-based app for quickly checking fixtures in cycling, tennis and football
+# martcho.uk ludunt
+## a web-based app for quickly checking fixtures in cycling, tennis and football
 
 ![ludunt](screenshot.png)
 
